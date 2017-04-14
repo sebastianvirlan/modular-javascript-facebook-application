@@ -1,0 +1,162 @@
+body{
+    margin:0;
+    padding:0;
+    height: 100%;
+    overflow:hidden;
+    font-family: Helvetica, Arial, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 5px;
+    resize: none;
+}
+
+button {
+    padding: 8px 15px 8px 15px;
+    margin-bottom: 10px;
+    border: 0;
+    color: #000;
+    background: #fff;
+}
+
+.fb {
+    background-color: #4267b2;
+    color: #fff;
+}
+
+#postMessage:focus{
+	outline: none;
+}
+
+
+.fa-paper-plane{
+    transform: rotate(40deg);
+    font-size: 14px;
+    color: #000;
+    overflow: hidden;
+
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.background{
+    background: url('../img/bg_road1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    left:-15px;
+    right:-15px;
+    top:-15px;
+    bottom:-15px;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    -o-filter: blur(10px);
+    position: absolute;
+}
+.fbC {
+    position: absolute;
+    top: 18%;
+    left: 0;
+    right: 0;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+img{
+	border-radius: 100px;
+    border: 3px solid #f1eaea;
+    width: 80px;
+
+}
+
+.login-btn {
+	background: -webkit-linear-gradient(#67ae55, #578843);
+    background: -o-linear-gradient(#67ae55, #578843);
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    padding: 7px 10px;
+}
+
+.login-btn:hover{
+	background: #578843;
+    color: #fff;
+}
+
+.cover-img{
+    text-shadow: 0 0 3px rgba(0,0,0,.8);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+	background: url('../img/bg_road2.jpg') no-repeat;
+    background-size: 100%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    box-shadow: 0 5px 11px rgba(0,0,0, 0.5);
+    height: 148px;
+}
+
+.login-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actions{
+    background-color: #e9ebee;;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: center;
+    box-shadow: 0 5px 11px rgba(0,0,0, 0.5);
+}
+
+#postMessage{
+	width: 100%;
+}
+@media screen and (max-width : 375px){
+    #app{
+        top: 0;
+        width: 100%;
+        margin: 0;
+    }
+    .relative{
+        height: 350px;
+    }
+}

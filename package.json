@@ -1,0 +1,25 @@
+{
+  "name": "facebook-application",
+  "version": "1.0.0",
+  "description": "Simple facebook application using javascript-sdk.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "facebook-sdk",
+    "javascript"
+  ],
+  "author": "Sebastian Vîrlan",
+  "license": "MIT"
+}
