@@ -17,7 +17,7 @@ pipeline {
     }
     stage('dev') {
       steps {
-        mail(subject: 'sdfsd', body: 'dsfsd')
+        mail(subject: 'deploy dev', body: 'deploy dev', from: 'jenkins@sebastian.com', to: 'sebastian.virlan@gmail.com')
       }
     }
     stage('production') {
