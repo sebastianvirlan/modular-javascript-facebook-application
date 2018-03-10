@@ -17,12 +17,13 @@ pipeline {
     }
     stage('dev') {
       steps {
-        mail(subject: 'deploy dev', body: 'deploy dev', from: 'jenkins@sebastian.com', to: 'sebastian.virlan@gmail.com')
+        echo 'Develop Deploy'
       }
     }
     stage('production') {
       steps {
         sleep 4
+        echo 'Production Deploy'
       }
     }
   }
